@@ -6,6 +6,7 @@ def capturing_rainwater(list_1):
     length = len(list_1)
     vacancy = 0
     for i in range (1, length):
+        print("check")
         second_val = list_1[i]
         if second_val > first_val:
             second_bound = i
